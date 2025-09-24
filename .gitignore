@@ -1,0 +1,36 @@
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+/bin/
+/obj/
+*.out
+*.test
+
+# Dependency directories
+/vendor/
+Gopkg.lock
+go.sum
+
+# IDE and editor specific  files
+.idea/
+*.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage.out
+*.coverprofile
+
+# Other files to ignore
+*.log
+*.tmp
