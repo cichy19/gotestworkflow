@@ -1,4 +1,4 @@
-package main
+package alpha
 
 import (
 	"testing"
@@ -8,7 +8,7 @@ import (
 
 func TestUpper(t *testing.T) {
 
-	observed := Upper("foo")
+	observed := Upper("fOo")
 	expected := "FOO"
 	assert.Equal(t, expected, observed)
 
