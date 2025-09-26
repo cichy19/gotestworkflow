@@ -1,4 +1,4 @@
-name: Changelog
+name: Generate changelog file
 
 on:
   workflow_run:
@@ -30,6 +30,6 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "chore: update CHANGELOG.md"
+          message: "robot: update CHANGELOG.md"
           add: 'CHANGELOG.md'
           push: true
