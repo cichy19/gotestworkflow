@@ -20,7 +20,8 @@ jobs:
     - name: Install dependencies
       run: go get .
     - name: Build
-      run: go build -o texter .
+      # run: go build -o texter .
+      run: go build -o docker-machine-driver-fsas .
       env:
         CGO_ENABLED: "0"
     - name: Test
@@ -34,5 +35,5 @@ jobs:
     #     path: |
     #       docker-machine-driver-fsas
     #       docker-machine-driver-fsas.yml
-    #     retention-days: 14
+    #     retention-days: 4
     #     if-no-files-found: warn
