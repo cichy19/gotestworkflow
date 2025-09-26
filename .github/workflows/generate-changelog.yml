@@ -26,22 +26,20 @@ jobs:
           printf '%s\n' "${{ steps.changelog.outputs.changelog }}" >> CHANGELOG.md
           chmod 644 CHANGELOG.md
       
-      - name: Commit and push changelog
+      - name: Commit changelog
         uses: EndBug/add-and-commit@v7
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "robot: update CHANGELOG.md"
+          message: "robot: update CHANGELOG.md for ${{ github.ref_name }}"
           add: 'CHANGELOG.md'
           push: false # do not push yet because main branch is protected and require PR
       
-      - name: Create Pull Request
+      - name: Create Pull Request for changelog to main branch
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.PAT4PR }}
           branch: changelog-update
-          base: main
           title: "Update changelog"
           body: "Automated changelog update"
-          # add-paths: CHANGELOG.md
-          delete-branch: true
+          base: main
