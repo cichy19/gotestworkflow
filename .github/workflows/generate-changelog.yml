@@ -33,4 +33,13 @@ jobs:
           author_email: github-actions@github.com
           message: "robot: update CHANGELOG.md"
           add: 'CHANGELOG.md'
-          push: true
+          push: false # do not push yet because main branch is protected and require PR
+      
+      - name: Push branch and create PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: changelog-update
+          title: "Update changelog"
+          body: "Automated changelog update"
+          base: main
