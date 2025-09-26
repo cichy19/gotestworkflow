@@ -17,6 +17,7 @@ jobs:
         uses: janheinrichmerker/action-github-changelog-generator@v2.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          verbose: true
       - name: Save changelog to file
         run: |
           printf 'Changelog generated at: %s\n' "$(date --iso-8601=seconds)" > CHANGELOG.md
