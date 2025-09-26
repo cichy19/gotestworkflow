@@ -20,7 +20,6 @@ jobs:
       - name: Install dependencies
         run: go get .
       - name: Build
-        # run: go build -o texter .
         run: go build -o docker-machine-driver-fsas .
         env:
           CGO_ENABLED: "0"
