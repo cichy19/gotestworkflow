@@ -31,7 +31,7 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "robot: update CHANGELOG.md"
+          message: "robot: update CHANGELOG.md for ${{ env.ENV_TAG }}"
           add: 'CHANGELOG.md'
           push: false # do not push yet because main branch is protected and require PR
       

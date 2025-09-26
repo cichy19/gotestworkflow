@@ -32,6 +32,8 @@ jobs:
           suffix: "sha256"
       - name: Create node driver YAML
         run: bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
+        env:
+          ENV_TAG: ${{ github.ref_name }}
       - name: Upload binary and YAML
         uses: actions/upload-artifact@v4
         with:
