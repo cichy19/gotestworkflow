@@ -1,4 +1,4 @@
-module test-workflow
+module github.com/cichy19/gotestworkflow
 
 go 1.23.1
 

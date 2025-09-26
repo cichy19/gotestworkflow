@@ -1,0 +1,19 @@
+name: Changelog
+
+on:
+  workflow_run:
+    workflows: ["Create release"]    # The exact name of your release workflow
+    types:
+      - completed
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate release changelog
+        uses: janheinrichmerker/action-github-changelog-generator@v2.3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
