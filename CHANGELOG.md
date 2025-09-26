@@ -1,6 +1,59 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-09-26T19:31:25+00:00
+Changelog generated at: 2025-09-26T22:10:27+00:00
 # Changelog
+
+## [v1.0.26](https://github.com/cichy19/gotestworkflow/tree/v1.0.26) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.25...v1.0.26)
+
+**Merged pull requests:**
+
+- downgrade peter-evens workflow [\#21](https://github.com/cichy19/gotestworkflow/pull/21) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.25](https://github.com/cichy19/gotestworkflow/tree/v1.0.25) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.24...v1.0.25)
+
+**Merged pull requests:**
+
+- use PAT instead of GITHUB\_TOKEN because of push to main limitations; [\#19](https://github.com/cichy19/gotestworkflow/pull/19) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.24](https://github.com/cichy19/gotestworkflow/tree/v1.0.24) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.23...v1.0.24)
+
+**Merged pull requests:**
+
+- try to push changelog changes using PR because main branch is protect… [\#18](https://github.com/cichy19/gotestworkflow/pull/18) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.23](https://github.com/cichy19/gotestworkflow/tree/v1.0.23) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.22...v1.0.23)
+
+**Merged pull requests:**
+
+- change workflow name; [\#17](https://github.com/cichy19/gotestworkflow/pull/17) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.22](https://github.com/cichy19/gotestworkflow/tree/v1.0.22) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.21...v1.0.22)
+
+**Merged pull requests:**
+
+- pass tag to bash script that generates yml config file; [\#16](https://github.com/cichy19/gotestworkflow/pull/16) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.21](https://github.com/cichy19/gotestworkflow/tree/v1.0.21) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.20...v1.0.21)
+
+**Merged pull requests:**
+
+- try to get release url; [\#15](https://github.com/cichy19/gotestworkflow/pull/15) ([cichy19](https://github.com/cichy19))
+- generate sha checksum from fsas binary and add to release files; [\#14](https://github.com/cichy19/gotestworkflow/pull/14) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.20](https://github.com/cichy19/gotestworkflow/tree/v1.0.20) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.19...v1.0.20)
 
 ## [v1.0.19](https://github.com/cichy19/gotestworkflow/tree/v1.0.19) (2025-09-26)
 
