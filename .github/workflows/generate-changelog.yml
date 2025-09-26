@@ -35,11 +35,13 @@ jobs:
           add: 'CHANGELOG.md'
           push: false # do not push yet because main branch is protected and require PR
       
-      - name: Push branch and create PR
-        uses: peter-evans/create-pull-request@v4
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT4PR }}
           branch: changelog-update
+          base: main
           title: "Update changelog"
           body: "Automated changelog update"
-          base: main
+          add-paths: CHANGELOG.md
+          delete-branch: true
