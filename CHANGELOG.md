@@ -1,5 +1,14 @@
-Changelog file generated automatically. Do not edit.Changelog generated at: 2025-09-26T19:21:20+00:00
+Changelog file generated automatically. Do not edit.
+Changelog generated at: 2025-09-26T19:31:25+00:00
 # Changelog
+
+## [v1.0.19](https://github.com/cichy19/gotestworkflow/tree/v1.0.19) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.18...v1.0.19)
+
+**Merged pull requests:**
+
+- Feature/a13 [\#13](https://github.com/cichy19/gotestworkflow/pull/13) ([cichy19](https://github.com/cichy19))
 
 ## [v1.0.18](https://github.com/cichy19/gotestworkflow/tree/v1.0.18) (2025-09-26)
 
