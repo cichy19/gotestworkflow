@@ -31,7 +31,7 @@ jobs:
           pattern: "docker-machine-driver-fsas"
           suffix: "sha256"
       - name: Create node driver YAML
-        run: bash ./ci_tools/generate_nodedriver_yaml.sh
+        run: bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
       - name: Upload binary and YAML
         uses: actions/upload-artifact@v4
         with:
@@ -42,7 +42,6 @@ jobs:
           retention-days: 4
           if-no-files-found: warn
       - name: Release
-        id: create_release
         uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -51,6 +50,3 @@ jobs:
             docker-machine-driver-fsas.sha256
             docker-machine-driver-fsas.yml
             docker-machine-driver-fsas
-      - name: Show Release URL
-        run: |
-          echo "Release URL: ${{ steps.create_release.outputs.url }}"
