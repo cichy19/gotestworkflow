@@ -1,5 +1,15 @@
-Changelog generated at: 2025-09-26T18:57:18+00:00
+Changelog file generated automatically. Do not edit.Changelog generated at: 2025-09-26T19:21:20+00:00
 # Changelog
+
+## [v1.0.18](https://github.com/cichy19/gotestworkflow/tree/v1.0.18) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.17...v1.0.18)
+
+**Merged pull requests:**
+
+- correct print command; [\#12](https://github.com/cichy19/gotestworkflow/pull/12) ([cichy19](https://github.com/cichy19))
+- Feature/a11 [\#11](https://github.com/cichy19/gotestworkflow/pull/11) ([cichy19](https://github.com/cichy19))
+- Feature/a12 [\#10](https://github.com/cichy19/gotestworkflow/pull/10) ([cichy19](https://github.com/cichy19))
 
 ## [v1.0.17](https://github.com/cichy19/gotestworkflow/tree/v1.0.17) (2025-09-26)
 
