@@ -1,10 +1,9 @@
 name: Changelog
 
 on:
-  workflow_run:
-    workflows: ["Create release"]    # The exact name of your release workflow
+  release:
     types:
-      - completed
+      - created
 
 jobs:
   changelog:
