@@ -17,7 +17,7 @@ jobs:
         id: changelog
         uses: janheinrichmerker/action-github-changelog-generator@v2.3
         with:
-          token: ${{ secrets.PAT4PR }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           verbose: true
       - name: Save changelog to file
         run: |
@@ -33,4 +33,13 @@ jobs:
           author_email: github-actions@github.com
           message: "robot: update CHANGELOG.md"
           add: 'CHANGELOG.md'
-          push: true
+          push: false # do not push yet because main branch is protected and require PR
+      
+      - name: Create Pull Request for changelog to main branch
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: changelog-update
+          title: "Update changelog"
+          body: "Automated changelog update"
+          base: main
