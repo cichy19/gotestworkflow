@@ -51,7 +51,3 @@ jobs:
             docker-machine-driver-fsas.yml
             docker-machine-driver-fsas
   
-  call_reusable:
-    uses: cichy19/gotestworkflow/.github/workflows/generate-changelog.yml@main
-    with:
-      env_tag: ${{ github.ref_name }}
