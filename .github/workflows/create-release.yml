@@ -29,7 +29,7 @@ jobs:
         uses: Solratic/checksum-action@v1
         with:
           pattern: "docker-machine-driver-fsas"
-          suffix: "sha256"
+          suffix: "sha256.txt"
       - name: Create node driver YAML
         run: bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
       - name: Upload binary and YAML
@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-            docker-machine-driver-fsas.sha256
+            docker-machine-driver-fsas.sha256.txt
             docker-machine-driver-fsas.yml
             docker-machine-driver-fsas
   
