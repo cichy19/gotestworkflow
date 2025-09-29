@@ -1,6 +1,34 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-09-29T10:04:16+00:00
+Changelog generated at: 2025-09-29T13:10:44+00:00
 # Changelog
+
+## [v1.0.43](https://github.com/cichy19/gotestworkflow/tree/v1.0.43) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.42...v1.0.43)
+
+## [v1.0.42](https://github.com/cichy19/gotestworkflow/tree/v1.0.42) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.41...v1.0.42)
+
+## [v1.0.41](https://github.com/cichy19/gotestworkflow/tree/v1.0.41) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.40...v1.0.41)
+
+## [v1.0.40](https://github.com/cichy19/gotestworkflow/tree/v1.0.40) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.39...v1.0.40)
+
+## [v1.0.39](https://github.com/cichy19/gotestworkflow/tree/v1.0.39) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.38...v1.0.39)
+
+## [v1.0.38](https://github.com/cichy19/gotestworkflow/tree/v1.0.38) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.37...v1.0.38)
+
+**Merged pull requests:**
+
+- Update changelog v1.0.37 [\#42](https://github.com/cichy19/gotestworkflow/pull/42) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [v1.0.37](https://github.com/cichy19/gotestworkflow/tree/v1.0.37) (2025-09-29)
 
