@@ -1,6 +1,15 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-09-29T09:38:54+00:00
+Changelog generated at: 2025-09-29T10:04:16+00:00
 # Changelog
+
+## [v1.0.37](https://github.com/cichy19/gotestworkflow/tree/v1.0.37) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.36...v1.0.37)
+
+**Merged pull requests:**
+
+- use github variable in workflow [\#41](https://github.com/cichy19/gotestworkflow/pull/41) ([cichy19](https://github.com/cichy19))
+- Update changelog [\#40](https://github.com/cichy19/gotestworkflow/pull/40) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [v1.0.36](https://github.com/cichy19/gotestworkflow/tree/v1.0.36) (2025-09-29)
 
@@ -29,19 +38,19 @@ Changelog generated at: 2025-09-29T09:38:54+00:00
 
 ## [v1.0.33](https://github.com/cichy19/gotestworkflow/tree/v1.0.33) (2025-09-29)
 
-[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.32...v1.0.33)
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.31...v1.0.33)
 
 **Merged pull requests:**
 
 - pass variable to string github way; [\#33](https://github.com/cichy19/gotestworkflow/pull/33) ([cichy19](https://github.com/cichy19))
 
-## [v1.0.32](https://github.com/cichy19/gotestworkflow/tree/v1.0.32) (2025-09-29)
-
-[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.31...v1.0.32)
-
 ## [v1.0.31](https://github.com/cichy19/gotestworkflow/tree/v1.0.31) (2025-09-29)
 
-[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.30...v1.0.31)
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.32...v1.0.31)
+
+## [v1.0.32](https://github.com/cichy19/gotestworkflow/tree/v1.0.32) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.30...v1.0.32)
 
 **Merged pull requests:**
 
