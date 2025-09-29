@@ -1,6 +1,11 @@
 name: Generate changelog file
 
 on:
+  workflow_call:
+    inputs:
+      env_tag:
+        required: true
+        type: string
   workflow_run:
     workflows: ["Create release"]    # The exact name of your release workflow
     types:
@@ -28,10 +33,12 @@ jobs:
       
       - name: Commit changelog
         uses: EndBug/add-and-commit@v7
+        env:
+          ENV_TAG: ${{ inputs.env_tag }}
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "robot: update CHANGELOG.md"
+          message: "robot: update CHANGELOG.md for $ENV_TAG"
           add: 'CHANGELOG.md'
           push: false # do not push yet because main branch is protected and require PR
       
