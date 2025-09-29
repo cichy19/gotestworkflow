@@ -1,6 +1,60 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-09-26T22:29:59+00:00
+Changelog generated at: 2025-09-29T09:19:05+00:00
 # Changelog
+
+## [v1.0.34](https://github.com/cichy19/gotestworkflow/tree/v1.0.34) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.33...v1.0.34)
+
+**Merged pull requests:**
+
+- get rid off variables passed between workflows; [\#35](https://github.com/cichy19/gotestworkflow/pull/35) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.33](https://github.com/cichy19/gotestworkflow/tree/v1.0.33) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.32...v1.0.33)
+
+**Merged pull requests:**
+
+- pass variable to string github way; [\#33](https://github.com/cichy19/gotestworkflow/pull/33) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.32](https://github.com/cichy19/gotestworkflow/tree/v1.0.32) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.31...v1.0.32)
+
+## [v1.0.31](https://github.com/cichy19/gotestworkflow/tree/v1.0.31) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.30...v1.0.31)
+
+**Merged pull requests:**
+
+- try to pass variable between workflows; [\#31](https://github.com/cichy19/gotestworkflow/pull/31) ([cichy19](https://github.com/cichy19))
+- rollback env var because it is active only during single workflow ses… [\#30](https://github.com/cichy19/gotestworkflow/pull/30) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.30](https://github.com/cichy19/gotestworkflow/tree/v1.0.30) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.29...v1.0.30)
+
+**Merged pull requests:**
+
+- pass tag to env var and use it in PR; [\#28](https://github.com/cichy19/gotestworkflow/pull/28) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.29](https://github.com/cichy19/gotestworkflow/tree/v1.0.29) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.28...v1.0.29)
+
+**Merged pull requests:**
+
+- replace pat with gh token; [\#26](https://github.com/cichy19/gotestworkflow/pull/26) ([cichy19](https://github.com/cichy19))
+
+## [v1.0.28](https://github.com/cichy19/gotestworkflow/tree/v1.0.28) (2025-09-26)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.27...v1.0.28)
+
+**Merged pull requests:**
+
+- change token and remove PR; [\#25](https://github.com/cichy19/gotestworkflow/pull/25) ([cichy19](https://github.com/cichy19))
+- Update changelog [\#24](https://github.com/cichy19/gotestworkflow/pull/24) ([cichy19](https://github.com/cichy19))
 
 ## [v1.0.27](https://github.com/cichy19/gotestworkflow/tree/v1.0.27) (2025-09-26)
 
