@@ -2,6 +2,8 @@ name: Create release
 
 on:
   push:
+    branches:
+      - main
     tags:
       - "v*.*.*"
 
@@ -24,10 +26,7 @@ jobs:
             pattern: "docker-machine-driver-fsas"
             suffix: "sha256"
         - name: Create node driver YAML
-          run: |
-            echo "pwd= $(pwd)"
-            bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
-          # run: bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
+          run: bash ./ci_tools/generate_nodedriver_yaml.sh ${{ github.ref_name }}
         - name: Upload binary and YAML
           uses: actions/upload-artifact@v4
           with:
