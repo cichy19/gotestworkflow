@@ -1,6 +1,15 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-09-29T09:19:05+00:00
+Changelog generated at: 2025-09-29T09:30:40+00:00
 # Changelog
+
+## [v1.0.35](https://github.com/cichy19/gotestworkflow/tree/v1.0.35) (2025-09-29)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.34...v1.0.35)
+
+**Merged pull requests:**
+
+- change sha file extension to txt that browser could display it instea… [\#37](https://github.com/cichy19/gotestworkflow/pull/37) ([cichy19](https://github.com/cichy19))
+- Update changelog [\#36](https://github.com/cichy19/gotestworkflow/pull/36) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [v1.0.34](https://github.com/cichy19/gotestworkflow/tree/v1.0.34) (2025-09-29)
 
