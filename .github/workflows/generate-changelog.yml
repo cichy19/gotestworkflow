@@ -31,7 +31,7 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: "robot: update CHANGELOG.md"
+          message: "robot: update CHANGELOG.md ${{ vars.REPO_VAR_TAG }}"
           add: 'CHANGELOG.md'
           push: false # do not push yet because main branch is protected and require PR
       
@@ -39,7 +39,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: changelog-update
-          title: "Update changelog"
-          body: "Automated changelog update"
+          branch: changelog-update-${{ vars.REPO_VAR_TAG }}
+          title: "Update changelog ${{ vars.REPO_VAR_TAG }}"
+          body: "Automated changelog update ${{ vars.REPO_VAR_TAG }}"
           base: main
