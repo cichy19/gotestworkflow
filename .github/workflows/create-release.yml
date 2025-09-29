@@ -7,7 +7,7 @@ on:
 
 jobs:
   call_build_and_test:
-    uses: ./.github/workflows/build-and-test.yml@feature/a33
+    uses: ./.github/workflows/build-and-test.yml
   create_release:
       needs: call_build_and_test
       runs-on: ubuntu-latest
