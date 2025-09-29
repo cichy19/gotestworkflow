@@ -7,7 +7,7 @@ on:
 
 jobs:
   call_build_and_test:
-    uses: cichy19/gotestworkflow/.github/workflows/build-and-test.yml@feature/a33
+    uses: ./.github/workflows/build-and-test.yml@feature/a33
   create_release:
       needs: call_build_and_test
       runs-on: ubuntu-latest
