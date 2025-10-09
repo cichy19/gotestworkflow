@@ -1,10 +1,12 @@
 name: Generate changelog file
 
 on:
-  workflow_run:
-    workflows: ["Create release"] # The exact name of your release workflow
+  pull_request:
+    branches:
+      - main
     types:
-      - completed
+      - synchronize
+      - ready_for_review
 
 jobs:
   changelog:
@@ -33,13 +35,4 @@ jobs:
           author_email: github-actions@github.com
           message: "robot: update CHANGELOG.md ${{ vars.REPO_VAR_TAG }}"
           add: 'CHANGELOG.md'
-          push: false # do not push yet because main branch is protected and require PR
-      
-      - name: Create Pull Request for changelog to main branch
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: changelog-update-${{ vars.REPO_VAR_TAG }}
-          title: "Update changelog ${{ vars.REPO_VAR_TAG }}"
-          body: "Automated changelog update ${{ vars.REPO_VAR_TAG }}"
-          base: main
+          push: true
