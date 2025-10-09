@@ -33,7 +33,7 @@ jobs:
       - name: Commit changelog update
         run: |
           git config user.name "${{ github.actor }}"
-          git config user.email "${{ github.actor.email }}
+          git config user.email "${{ github.actor.email }}"
           git add CHANGELOG.md
           git diff --cached --quiet || (
             git commit -m "ci: changelog file automatic update"
