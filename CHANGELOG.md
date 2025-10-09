@@ -1,6 +1,23 @@
 Changelog file generated automatically. Do not edit.
-Changelog generated at: 2025-10-09T20:40:38+00:00
+Changelog generated at: 2025-10-09T20:53:30+00:00
 # Changelog
+
+## [v1.0.48](https://github.com/cichy19/gotestworkflow/tree/v1.0.48) (2025-10-09)
+
+[Full Changelog](https://github.com/cichy19/gotestworkflow/compare/v1.0.47...v1.0.48)
+
+**Merged pull requests:**
+
+- change readme; 22:39 [\#70](https://github.com/cichy19/gotestworkflow/pull/70) ([cichy19](https://github.com/cichy19))
+- change readme, clear changelog; 22:24 [\#69](https://github.com/cichy19/gotestworkflow/pull/69) ([cichy19](https://github.com/cichy19))
+- change readme, clear changelog; [\#68](https://github.com/cichy19/gotestworkflow/pull/68) ([cichy19](https://github.com/cichy19))
+- test 21:47 [\#67](https://github.com/cichy19/gotestworkflow/pull/67) ([cichy19](https://github.com/cichy19))
+- test 03 [\#65](https://github.com/cichy19/gotestworkflow/pull/65) ([cichy19](https://github.com/cichy19))
+- add changelog file manually to PR branch; [\#64](https://github.com/cichy19/gotestworkflow/pull/64) ([cichy19](https://github.com/cichy19))
+- modify changelog only for test purposes; [\#63](https://github.com/cichy19/gotestworkflow/pull/63) ([cichy19](https://github.com/cichy19))
+- modify changelog only for test purposes; [\#62](https://github.com/cichy19/gotestworkflow/pull/62) ([cichy19](https://github.com/cichy19))
+- change concept of generating changelog file; create it before merging… [\#61](https://github.com/cichy19/gotestworkflow/pull/61) ([cichy19](https://github.com/cichy19))
+- Update changelog v1.0.47 [\#60](https://github.com/cichy19/gotestworkflow/pull/60) ([github-actions[bot]](https://github.com/apps/github-actions))
 
 ## [v1.0.47](https://github.com/cichy19/gotestworkflow/tree/v1.0.47) (2025-10-01)
 
