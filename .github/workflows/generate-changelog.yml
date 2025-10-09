@@ -6,8 +6,6 @@ on:
       - main
     types:
       - opened
-      - synchronize
-      - ready_for_review
 
 jobs:
   changelog:
