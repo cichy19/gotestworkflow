@@ -33,7 +33,5 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add CHANGELOG.md
-          git diff --cached --quiet || (
-            git commit -m "ci: changelog file automatic update"
-            git push origin HEAD:${{ github.head_ref }}
-          )
+          git commit -m "ci: changelog file automatic update"
+          git push origin HEAD:${{ github.head_ref }}
